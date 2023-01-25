@@ -1,0 +1,74 @@
+
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,900;1,300;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    background-color:#549797;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title {
+    font-size: 2rem;
+    text-align: center;
+    padding: 50px;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    padding: 25px;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.container {
+    text-align: center;
+}
+
+.box {
+    padding: 50px;
+    margin: 25px 50px;
+    cursor: pointer;
+    position: relative;
+    box-shadow: rgba(218, 52, 52, 0.5) 1px 5px 10px -1px;
+}
+
+.box:hover {
+    top: -8px;
+    box-shadow: rgba(72, 150, 69, 0.5) 1px 5px 10px -1px;
+}
+
+.container .headings h1 {
+    color: rgb(221, 52, 52);
+}
+
+.container .headings h2 {
+    color: #345bdd;
+}
+
+.container .headings h3 {
+    color: hsl(123, 71%, 54%);
+}
+
+.container .headings h4 {
+    color: hsl(39, 71%, 54%);
+}
+
+.container .headings .div-1 {
+    background-color: hsl(39, 71%, 54%);
+}
+.container .headings .div-2 {
+    background-color: hsl(123, 71%, 54%);
+}
+.container .headings .div-3 {
+    background-color:  #345bdd;
+}
+.container .headings .div-4 {
+    background-color: rgb(221, 52, 52);
+}

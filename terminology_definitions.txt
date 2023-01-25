@@ -1,0 +1,111 @@
+
+
+1. What are the main differences between external, internal, and inline CSS?
+
+# External CSS is a separate file linked to an HTML document, internal CSS is in the head of an HTML document, 
+  and inline CSS is applied directly to an HTML element using the style attribute.
+
+2. What is the syntax for class and ID selectors?
+
+# The syntax for class selectors is a period (.) followed by the class name, for example .classname{}. The syntax for ID 
+  selectors is a pound sign (#) followed by the ID name, for example #idname{}.
+
+3. How would you apply a single rule to two different selectors?
+
+# You can apply a single rule to two different selectors by separating them with a comma, for example "selector1, selector2{rule}"
+
+4. Given an element that has an id of title and a class of primary, how would you use both
+   attributes for a single rule?
+
+# To use both attributes for a single rule, you would use the ID selector with the class selector, for example "#title.primary{rule}"
+
+5. What does the descendant combinator do?
+
+# The descendant combinator (space) selects all elements that are descendants of the preceding element. For example 
+  "div p" would select all 'p' elements within a 'div' element.
+
+6. Between a rule that uses one class selector and a rule that uses three type selectors,
+   which rule has the higher specificity?
+
+# A rule that uses one class selector has higher specificity than a rule that uses three type selectors.
+
+7. From inside to outside, what is the order of box-model properties?
+
+# The order of box-model properties from inside to outside is content, padding, border, and margin.
+
+8. What does the box-sizing CSS property do?
+
+# The box-sizing CSS property allows you to include the padding and border in an element's total width and height.
+
+9. What is the difference between the standard and alternative box model?
+
+# The standard box model adds the width, padding, and border of an element to calculate its total width, while the alternative box model does not.
+
+10. Would you use margin or padding to create more space between 2 elements?
+
+# To create more space between two elements, you would use margin.
+
+11. Would you use margin or padding to create more space between the contents of an
+    element and its border?
+
+# To create more space between the contents of an element and its border, you would use padding.
+
+12. Would you use margin or padding if you wanted two elements to overlap each other?
+
+# To overlap two elements, you would use negative margins.
+
+13. What is the difference between a block element and an inline element?
+
+# A block element takes up the full width of its parent container and creates a new line after it, 
+  while an inline element only takes up as much width as necessary and does not create a new line after it.
+
+14. What is the difference between an inline element and an inline-block element?
+
+# An inline-block element is similar to an inline element, but it can have a width and height and can accept padding and margin.
+
+15. Is an h1 block or inline?
+
+# h1 is a block element.
+
+16. Is button block or inline?
+
+# Button is an inline-block element.
+
+17. Is div block or inline?
+
+# Div is a block element.
+
+18. Is span block or inline?
+
+# Span is an inline element.
+
+19. What’s the difference between a flex container and a flex item?
+
+# A flex container is the parent element that holds flex items and defines the layout, while a flex item 
+  is a child element within a flex container that can be laid out using flexbox properties.
+
+20. How do you create a flex item?
+
+# To create a flex item, you would put an element within a flex container using the display: flex; property.
+
+21. What are the 3 values defined in the shorthand flex property?
+
+# The three values defined in the shorthand flex property are flex-grow, flex-shrink, and flex-basis.
+
+22. How do you make flex items arrange themselves vertically instead of horizontally?
+
+# To make flex items arrange themselves vertically instead of horizontally, you would use the flex-direction property and set it to column.
+
+23. What is the difference between justify-content and align-items?
+
+# Justify-content aligns items along the horizontal axis, while align-items aligns items along the vertical axis.
+
+24. How do you use flexbox to completely center a div inside a flex container?
+
+# To completely center a div inside a flex container, you would use the align-items and justify-content properties with the value of center.
+
+25. What’s the difference between justify-content: space-between and justify-content:
+space-around?
+
+# Justify-content: space-between distributes space evenly between items, while justify-content: space-around 
+  distributes space evenly between items and also around the items.
